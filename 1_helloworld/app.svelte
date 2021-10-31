@@ -2,7 +2,16 @@
 	import Age from './Age.svelte';
 	let name = 'world';
 	let age = 27;
-	let dogYears = age * 7;
+	$: dogYears = age * 7;
+
+	function add(){
+		age += 1;
+	}
+	
+	function subtract(){
+		age -= 1;
+	}
+	
 </script>
 
 <style>
@@ -16,5 +25,5 @@
 <Age {age}/>
 <Age age={dogYears} yearType='dog'/>
 
-<button>+</button>
-<button>-</button>
+<button on:click={add}>+</button>
+<button on:click={subtract}>-</button>
