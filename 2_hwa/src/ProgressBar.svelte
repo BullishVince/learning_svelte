@@ -1,5 +1,5 @@
 <script>
-    export let progress = 20;
+    export let progress;
 </script>
 
 <style>
