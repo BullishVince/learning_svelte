@@ -16,9 +16,6 @@ If the variable sent in is the same name as the variable in the Svelte component
 ```
 <Age {age} />
 ```  
-  
-  
-  
-
+<br><br>
 To make a variable reactive declare it using ``` $: dogYears = age * 7; ```
 This will change the value of the variable dogYears if age changes
