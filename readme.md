@@ -1,9 +1,9 @@
 # Learning Svelte (personal repo)
 
 ## Recommended videos
-[Vite 2.0 Crash Course [15:35]](https://www.youtube.com/watch?v=LQQ3CR2JTX8)
-[Learn the Svelte JavaScript Framework - Full Course [7:10:52]](https://www.youtube.com/watch?v=ujbE0mzX-CU&t=3756s)
-[Rich Harris - Rethinking reactivity [36:44]](https://www.youtube.com/watch?v=AdNJ3fydeao)
+[Vite 2.0 Crash Course [15:35]](https://www.youtube.com/watch?v=LQQ3CR2JTX8)<br>
+[Learn the Svelte JavaScript Framework - Full Course [7:10:52]](https://www.youtube.com/watch?v=ujbE0mzX-CU&t=3756s)<br>
+[Rich Harris - Rethinking reactivity [36:44]](https://www.youtube.com/watch?v=AdNJ3fydeao)<br>
 
 ## Notes
 Svelte is a lightweight, truly reactive framework for building frontend applications
