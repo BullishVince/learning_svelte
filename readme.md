@@ -2,12 +2,22 @@
 
 ## Notes
 Svelte is a lightweight, truly reactive framework for building frontend applications
-There exists a framework built on top of Svelte, called Sapper, which is often used for bigger applications in companies
+~~There exists a framework built on top of Svelte, called Sapper, which is often used for bigger applications in companies~~, Sapper have been replaced with <b>SvelteKit</b>
 
 Svelte applications are made up of Svelte-components which is basically mini-HTML pages.
 root component is often called app.svelte  
-  
 
+## SvelteKit
+SvelteKit is an application framework powered by Svelte. In comparison to vanilla Svelte or Sapper SvelteKit uses [Vite](https://vitejs.dev/) for bundling instead of Rollup. 
+### Vite
+During development Vite utilizes HMR (Hot Module Replacement) and demand-file serving over native ESM (ESModules), this means no unnecessary bundling of components which have not been changed. Vite also offers flexible programmatic APIs with full TS-typing (TypeScript) and out-of-the-box support for TypeScript, JSX, CSS, JS and more.
+<br><br>
+When deploying to production Vite bundles everything together using Rollup with multi-page and library mode support.
+<br><br>
+One of the major perks of using Vite for frontend development is the simple routing-procedure. Vite is basing it's routing on the folder structure of the project, for example if we want to add a page to our app with the url {root}/stockholm we only need to make sure that the page-component is located inside a sub-folder called <b>stockholm</b>
+
+<br><br>  
+### Random notes
 Send values to a Svelte component
 ```
 <Age age={age}/>

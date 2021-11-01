@@ -1,5 +1,6 @@
 {
-  "name": "3-c19",
+  "name": "covid19us",
+  "description": "Covid-19 US Tracking web app",
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
@@ -8,7 +9,13 @@
   },
   "devDependencies": {
     "@sveltejs/kit": "next",
+    "bulma": "^0.9.3",
+    "chart.js": "^3.6.0",
+    "moment": "^2.29.1",
     "svelte": "^3.42.6"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
 }
