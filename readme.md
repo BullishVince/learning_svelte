@@ -34,3 +34,31 @@ If the variable sent in is the same name as the variable in the Svelte component
 <br><br>
 To make a variable reactive declare it using ``` $: dogYears = age * 7; ```
 This will change the value of the variable dogYears if age changes
+<br><br>
+Export a JSON-object as a prop to a child-component  
+App.svelte
+```
+<script>
+	import Info from './Info.svelte';
+
+	const asset = {
+		ticker: 'EURUSD',
+		price: 2.0765,
+		spread: '0.0005'
+	};
+</script>
+
+<Info {...asset}/>
+```  
+Info.svelte
+```
+<script>
+	export let ticker;
+	export let price;
+	export let spread;
+</script>
+
+<p>
+	{ticker} is currently at {price} with a spread of {spread}
+</p>
+```
