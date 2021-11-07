@@ -1,10 +1,11 @@
-# Learning Svelte (personal repo)
-
+## Learning Svelte (personal repo)
+  
 ## Recommended videos
 [Just-In-Time: The Next Generation of Tailwind CSS [13:18]](https://www.youtube.com/watch?v=3O_3X7InOw8)
 [Vite 2.0 Crash Course [15:35]](https://www.youtube.com/watch?v=LQQ3CR2JTX8)<br>
 [Learn the Svelte JavaScript Framework - Full Course [7:10:52]](https://www.youtube.com/watch?v=ujbE0mzX-CU&t=3756s)<br>
 [Rich Harris - Rethinking reactivity [36:44]](https://www.youtube.com/watch?v=AdNJ3fydeao)<br>
+[SvelteKit Crash Course - SSR, API Routes, Stores, Tailwind CSS, and More! [59:14]](https://www.youtube.com/watch?v=UU7MgYIbtAk)<br>
 
 ## Notes
 Svelte is a lightweight, truly reactive framework for building frontend applications
